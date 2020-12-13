@@ -177,9 +177,14 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: 26rem;
     background-color: rgba(47, 47, 48, 0.883);
     position: absolute;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .description {
     color: white;
@@ -201,7 +206,7 @@ footer {
   .description-image {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .description-image img {
     height: 9rem;
@@ -209,7 +214,7 @@ footer {
 
   /* grids */
   .content-row {
-    margin-top: 21rem;
+    margin-top: 29rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
